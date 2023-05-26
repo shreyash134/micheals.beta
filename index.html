@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    
+    <title>St.Micheal's Convent High School</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resourses/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+</head>
+<header>
+  <div class="header">
+      <img class="patrons" src="resources/img/saint.png">
+      <p>St.Micheal's Convent High School<br>Ambewadi,Dandeli-581325</p>
+      <img class="patrons" src="resources/img/Musk.png">
+  </div>
+</header>
+<body>
+
+
+  <div class="body">
+  <div class="welcome">  <h1>The Family Of St.Micheal's <br>Welcomes You</h1>   </div>
+</div>
+<div class="buttons">
+  <button class="about" onclick="window.location.href='about.html'"><a href="about.html" class="abouts">About Our Family</a></button>
+  <button class="teacher" onclick="window.location.href='wip.html'"><a href="wip.html" class="teachers">Teachers & Staff</a></button>
+  <button class="study" onclick="window.location.href='wip.html'"><a href="wip.html" class="studys">Study Materials</a></button>
+</div>
+<div class="break"></div>
+
+<div class="waste">
+  <h3>Transformative Education For Fullness Of Life</h3><br>
+  <h3>Feel The Change At St.Micheal's</h3>
+</div>
+
+
+</body>
+
+<footer>
+  <div class="row">
+      <div class="col span-1-of-2">
+          <ul class="footer-nav">
+              <li><a href="index.html">home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="wip.html">Teachers & Staff</a></li>
+              <li><a href="wip.html">Study material</a></li>
+              
+          </ul>
+      </div>
+      <div class="col span-1-of-2">
+          <ul class="social-links">
+      <a href="https://www.facebook.com/stmichaelsdandeli/"><ion-icon  class="fb" name="logo-facebook" ></ion-icon></a>
+      
+        <a href="https://www.google.com/search?q=St.%20micheals%20convent%20high%20school&oq=st&aqs=chrome.2.69i57j69i59l2j35i39l2j69i61l2j69i60.5731j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=APwXEdcBUR8KGRfJEy3A_h4AvnI_yp5CfQ:1681560927215&rflfq=1&num=10&rldimm=3718415039441367283&lqi=CiBTdC4gbWljaGVhbHMgY29udmVudCBoaWdoIHNjaG9vbEj_pKmr6oCAgAhaNRAAEAEQAhADEAQYABgBGAIYAxgEIh9zdCBtaWNoZWFscyBjb252ZW50IGhpZ2ggc2Nob29skgEGc2Nob29sqgFSCggvbS8wNnpkahABKiMiH3N0IG1pY2hlYWxzIGNvbnZlbnQgaGlnaCBzY2hvb2woADIfEAEiG9Z_EVPMzJaDbbdg62kWhEA8UGb7S2YACryuIA&ved=2ahUKEwj2-u_N7qv-AhV9SWwGHRtMAI8QvS56BAgMEAE&sa=X&rlst=f#rlfi=hd:;si:3718415039441367283,l,CiBTdC4gbWljaGVhbHMgY29udmVudCBoaWdoIHNjaG9vbEj_pKmr6oCAgAhaNRAAEAEQAhADEAQYABgBGAIYAxgEIh9zdCBtaWNoZWFscyBjb252ZW50IGhpZ2ggc2Nob29skgEGc2Nob29sqgFSCggvbS8wNnpkahABKiMiH3N0IG1pY2hlYWxzIGNvbnZlbnQgaGlnaCBzY2hvb2woADIfEAEiG9Z_EVPMzJaDbbdg62kWhEA8UGb7S2YACryuIA;mv:[[15.640147199999998,74.67282039999999],[14.7587425,73.6921024]];tbs:lrf:!1m4!1u2!2m2!2m1!1e1!2m1!1e2!3sIAE,lf:1,lf_ui:2"> <ion-icon class="google" name="logo-google"></ion-icon></a>
+     </ul>
+      </div>
+  </div>
+  <div class="row">
+      <p>Copyright &copy; 2022 by shreyash. All rights reserved</p>
+  </div>
+</footer>
+<script>
+
+
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+  
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+  
+        // Store hash
+        var hash = this.hash;
+  
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+  
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+
+
+
+
+
+
+
